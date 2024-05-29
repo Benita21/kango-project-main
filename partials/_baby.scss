@@ -1,0 +1,47 @@
+.baby{
+    padding: 2rem 2rem;
+    @media(max-width:768px){
+        width: 100%;
+    }
+    .specual{
+        img{
+            width: 1275px;
+            border-radius: 1rem;
+            @media(max-width:768px){
+                width: 350px;}
+        }
+    }
+    .bigsave{
+        display: flex;
+        padding-top: 1rem;
+        gap: 1rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            width: 100%;}
+        img{
+            width: 650px;
+            border-radius: 1rem;
+            @media(max-width:768px){
+                width: 350px;}
+        }
+    }
+    .furniture{
+        display: flex;
+        padding-top: 1rem;
+        align-items: center;
+        gap: .7rem;
+        @media(max-width:768px){
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+       
+        img{
+            width: 300px;
+            @media(max-width:768px){
+                width: 160px;
+               
+            }
+        }
+    }
+}

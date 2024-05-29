@@ -1,0 +1,21 @@
+.sec-head{
+    display: flex;
+    justify-content: space-between;
+    p{
+        font-size: .8rem;
+    }
+    // gap: 5rem;
+    background-color:$secondary-color;
+    font-size: 1.1rem;
+    color: aliceblue;
+    padding: 1rem;
+    // position: fixed;
+    @media(max-width:768px){
+        display: none;}
+    .catagories{
+        display: flex;
+        font-weight: bold;
+        align-items: center;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,83 @@
+.deals{
+    @media(max-width:768px){
+        width: 100%;
+        
+    }
+   
+    p{
+        font-size: .8rem;
+    }
+    .top-deals{
+        display: flex;
+        gap: 1rem;
+        background-color:rgb(148,0,79);
+        padding: 1rem;
+        align-items: center;
+        @media(max-width:768px){
+            width: 10%;
+            background-color: black;
+            padding: 0;
+        }
+        .pi{
+            @media(max-width:768px){
+                // width: 100%;
+                font-size: .8rem;
+                
+            }
+        }
+        @media(max-width:768px){
+            width: 100%;
+            p{
+                font-size: .4rem;
+            }
+        }
+        p{
+            font-size: .7rem;
+            @media(max-width:768px){
+                font-size: .1rem;
+            }
+        }
+        h5{
+            font-size: 2rem;
+            color: aliceblue;
+            @media(max-width:768px){
+                font-size: 1rem;
+            }
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .items{
+        display: flex;
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        padding: 1rem;
+        @media(max-width:768px){
+            grid-template-columns: repeat(1,1fr);
+        }
+        .card{
+            display: flex;
+            // background-color: red;
+            gap: 1rem;
+            // align-items: center;
+            &:hover{
+               box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+            }
+
+            .pic{
+            
+                img{
+                    width: 130px;   
+                    // height: 150px;
+                }
+            }
+            .info{
+                padding-top: 3rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

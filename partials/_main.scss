@@ -1,0 +1,8 @@
+.main{
+    position: fixed;
+    @media(max-width:768px){
+        position: fixed;
+        width: 50%;
+        display: none;
+    }
+}
