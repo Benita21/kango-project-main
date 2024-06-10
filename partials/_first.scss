@@ -1,0 +1,23 @@
+.first{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 4rem;
+    @media(max-width:768px){
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 1.5rem;
+    }
+    .fast{
+        @media(max-width:768px){
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+    .main-idea{
+        color: black;
+        font-weight: bold;
+        align-items: center;
+        padding: 1rem;
+    }
+}

@@ -28,6 +28,10 @@
             width: 100%;
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            gap: 1rem;
+            align-items: center;
+            padding: 0;
+           
             // padding:.1rem ;
             // display: flex;
             // flex-wrap: wrap;
@@ -39,6 +43,7 @@
             
                 @media(max-width:768px){
                     width: 150px;
+                    box-shadow:  rgba(0, 0, 0, 0.1) 0px 10px 50px;;
                     // font-size: .5rem;
                     
                 }

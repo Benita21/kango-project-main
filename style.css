@@ -235,6 +235,7 @@ body .form {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    gap: 0.2rem;
   }
 }
 .cat-images .major img {
@@ -390,6 +391,9 @@ body .form {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding: 0;
   }
 }
 .products .spornsored img {
@@ -398,6 +402,7 @@ body .form {
 @media (max-width: 768px) {
   .products .spornsored img {
     width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   }
 }
 
@@ -422,8 +427,9 @@ body .form {
 }
 @media (max-width: 768px) {
   .services h4 {
-    width: 100%;
+    width: 97%;
     padding: 0;
+    margin-left: 0.5rem;
   }
 }
 .services .apps {
@@ -435,7 +441,7 @@ body .form {
 }
 @media (max-width: 768px) {
   .services .apps img {
-    width: 130px;
+    width: 200px;
   }
 }
 @media (max-width: 768px) {
@@ -471,7 +477,6 @@ body .form {
 .main2 .icons-only {
   width: 100%;
   display: flex;
-  width: 100%;
   gap: 2rem;
   align-items: center;
   margin-top: 6rem;
@@ -480,6 +485,9 @@ body .form {
 @media (max-width: 768px) {
   .main2 .icons-only {
     font-size: 1rem;
+    padding-left: 1rem;
+    width: 95%;
+    margin-left: 0.5rem;
   }
   .main2 .icons-only p {
     font-size: 0.5rem;
@@ -518,10 +526,9 @@ body .form {
   .main2 .input {
     display: block;
     display: flex;
-    width: 80%;
+    width: 100%;
     align-items: center;
     background-color: rgb(204, 201, 201);
-    margin-left: 2rem;
   }
   .main2 .input input {
     width: 90%;
@@ -546,7 +553,6 @@ body .form {
   background-color: aliceblue;
   padding: 1rem 1rem;
   margin-bottom: 1.5rem;
-  margin-left: 1rem;
   top: 0;
 }
 .main2 .main1 .main11 {
@@ -558,7 +564,7 @@ body .form {
 @media (max-width: 768px) {
   .main2 .main1 {
     display: block;
-    width: 80%;
+    width: 100%;
   }
   .main2 .main1 .log {
     display: flex;
@@ -687,13 +693,18 @@ body .form {
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .baby .specual {
+    width: 100%;
+  }
+}
 .baby .specual img {
   width: 1275px;
   border-radius: 1rem;
 }
 @media (max-width: 768px) {
   .baby .specual img {
-    width: 350px;
+    width: 360px;
   }
 }
 .baby .bigsave {
@@ -729,6 +740,11 @@ body .form {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 768px) and (max-width: 768px) {
+  .baby .furniture .fur h4 {
+    font-size: 0.6rem;
+  }
+}
 .baby .furniture img {
   width: 300px;
 }
@@ -736,4 +752,54 @@ body .form {
   .baby .furniture img {
     width: 160px;
   }
+}
+
+.first {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 4rem;
+}
+@media (max-width: 768px) {
+  .first {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .first .fast {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+.first .main-idea {
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+  }
+}
+.footer .icons {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer .copy {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */

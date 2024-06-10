@@ -49,10 +49,14 @@
             display: flex;
             flex-wrap: wrap;
             width: 100%;
+            gap: .2rem;
         }
         img{
             width: 200px;
             border-radius: 1rem;
+            @media(max-width: 769px;){
+                width: 190px;
+            }
         }
     }
 }

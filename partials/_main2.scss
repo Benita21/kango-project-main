@@ -20,7 +20,7 @@
         width: 100%;
         display: flex;
         // justify-content: space-between;
-        width: 100%;
+        // width: 100%;
         gap: 2rem;
         // padding: 1rem;
         align-items: center;
@@ -29,6 +29,9 @@
         background-color: aqua;
         @media(max-width:768px){
             font-size: 1rem;
+            padding-left: 1rem;
+            width: 95%;
+            margin-left: .5rem;
             p{
                 font-size: .5rem;
             }
@@ -79,11 +82,11 @@
         @media(max-width:768px){
             display: block;
             display: flex;
-            width: 80%;
+            width: 100%;
             align-items: center;
             background-color:  rgb(204, 201, 201);
             // padding-left: 2rem;
-            margin-left: 2rem;
+            // margin-left: 2rem;
             input{
                 width: 90%;
                 padding: .5rem .2rem;
@@ -111,7 +114,7 @@
         background-color: aliceblue;
         padding: 1rem 1rem;
         margin-bottom:1.5rem ;
-        margin-left: 1rem;
+        // margin-left: 1rem;
         top: 0;
         .main11{
 display: flex;
@@ -124,7 +127,7 @@ width: 100%;
     display: block;
     // display: flex;
     // justify-content: space-between;
-    width: 80%;
+    width: 100%;
     .log{
         display: flex;
         align-items: center;

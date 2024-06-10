@@ -4,11 +4,14 @@
         width: 100%;
     }
     .specual{
+        @media(max-width:768px){
+            width: 100%;
+        }
         img{
             width: 1275px;
             border-radius: 1rem;
             @media(max-width:768px){
-                width: 350px;}
+                width: 360px;}
         }
     }
     .bigsave{
@@ -31,9 +34,17 @@
         padding-top: 1rem;
         align-items: center;
         gap: .7rem;
+       
         @media(max-width:768px){
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            .fur{
+                @media(max-width:768px){
+                    h4{
+                        font-size: .6rem;
+                    }
+                }
+            }
         }
        
         img{
